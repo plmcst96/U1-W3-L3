@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&family=Montserrat:wght@400;700&display=swap");
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f6f4f3;
+}
+#navbar {
+  text-align: center;
+  margin: 0;
+}
+
+.img {
+  background-image: url(../images/titleback.jpeg);
+  padding: 2.5em;
+  margin: 0;
+}
+
+h1 {
+  font-family: "Kalam", cursive;
+  font-size: 4em;
+  font-weight: 700;
+  color: #6b7966;
+}
+
+h3 {
+  font-size: 1.5em;
+  color: #606062;
+  text-align: center;
+  font-weight: 700;
+  margin: 1em 0 1em 0;
+}
+
+#navbar ul {
+  background-color: #acb8a8;
+  padding: 1.5em;
+}
+
+#navbar ul li {
+  display: inline-block;
+  margin-right: 2em;
+  font-size: 18px;
+  font-weight: 700;
+}
+#navbar ul li a {
+  color: #606062;
+  text-decoration: none;
+}
+
+main {
+  width: 500px;
+  margin: 2em auto;
+  background-color: #dab9b6;
+  padding: 20px;
+  border: #606062 1px solid;
+  border-radius: 10px;
+  box-shadow: 5px 10px #cdcdcd;
+}
+
+main form label {
+  width: 6em;
+  display: inline-block;
+  color: #606062;
+  font-weight: 700;
+}
+
+main form input {
+  width: 25em;
+  padding: 0.6em;
+  border-radius: 6px;
+  border-style: none;
+}
+
+main form button {
+  margin-top: 1em;
+  margin-right: 1em;
+  font-size: 1.1em;
+  border-radius: 5px;
+  border-style: none;
+  padding: 0.5em;
+  font-weight: bold;
+  color: #606062;
+}
+
+form div {
+  margin: 1.2em;
+}
+
+form div:last-of-type {
+  text-align: center;
+}
+main form textarea {
+  width: 25em;
+  padding: 0.6em;
+  border-radius: 6px;
+  border-style: none;
+}
+
+section {
+  width: 500px;
+  margin: 2em auto;
+  background-color: #a8baa2;
+  padding: 20px;
+  border: #606062 1px solid;
+  border-radius: 10px;
+  box-shadow: 5px 10px #cdcdcd;
+}
+.toDoList p {
+  display: inline;
+  padding: 1em;
+  font-family: 18px;
+}
+.toDoList {
+  margin-bottom: 1em;
+  border: 1px solid #606062;
+  padding: 1.3em;
+}
+
+.toDoList button {
+  margin-top: 1em;
+  margin-right: 1em;
+  font-size: 1.1em;
+  border-radius: 5px;
+  border-style: none;
+  padding: 0.5em;
+  font-weight: bold;
+  color: #606062;
+  display: block;
+}
