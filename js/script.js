@@ -31,9 +31,9 @@ taskForm.addEventListener('submit', function (ev) {
     dateForm.value = ''
     hourForm.value = ''
 
-    const taskBar = document.getElementsByClassName('toDoList')
     newBlockTask.addEventListener('click', function () {
-        taskBar.innerHTML = `<del>${newTask}</del>`
+        newBlockTask.innerHTML = `<del>${newTask.task} ${newTask.note} ${newTask.date} ${newTask.hour}</del> 
+        <button onclick="deleteTask(event)">ELIMINA!</button>`
     })
 })
 const deleteTask = function (ev) {
