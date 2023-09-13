@@ -32,7 +32,7 @@ taskForm.addEventListener('submit', function (ev) {
     hourForm.value = ''
 
     const taskBar = document.getElementsByClassName('toDoList')
-    taskBar.addEventListener('click', function () {
+    newBlockTask.addEventListener('click', function () {
         taskBar.innerHTML = `<del>${newTask}</del>`
     })
 })
