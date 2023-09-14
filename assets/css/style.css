@@ -125,3 +125,12 @@ section {
   color: #606062;
   display: block;
 }
+
+footer {
+  border-top: 1.6px solid #6b7966;
+  text-align: center;
+  margin-top: 3em;
+  padding: 2em;
+  line-height: 1.5em;
+  background-color: #d3c6bf;
+}

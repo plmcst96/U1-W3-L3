@@ -32,7 +32,7 @@ taskForm.addEventListener('submit', function (ev) {
     hourForm.value = ''
 
     newBlockTask.addEventListener('click', function () {
-        newBlockTask.innerHTML = `<del>${newTask.task} ${newTask.note} ${newTask.date} ${newTask.hour}</del> 
+        newBlockTask.innerHTML = `<del>${newTask.task} ${newTask.note}</del> <del>${newTask.date}</del> <del>${newTask.hour}</del> 
         <button onclick="deleteTask(event)">ELIMINA!</button>`
     })
 })
